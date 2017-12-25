@@ -20,7 +20,7 @@
         android:layout_height="80dp"
         android:layout_marginBottom="132dp"
         android:layout_marginLeft="40dp"
-        android:background="#E0F2F1"
+        android:background="@drawable/rodonet"
         android:alpha="0.4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -33,10 +33,11 @@
         android:layout_height="80dp"
         android:layout_marginBottom="16dp"
         android:layout_marginLeft="40dp"
-        android:background="#E0F2F1"
+        android:background="@drawable/rodonet"
         android:alpha="0.4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         android:text="@string/register"
-        android:textColor="#80CBC4"/>
+        android:textColor="#80CBC4"
+        android:onClick="registra"/>
 </android.support.constraint.ConstraintLayout>

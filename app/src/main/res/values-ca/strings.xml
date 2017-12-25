@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">llibres</string>
+    <string name="mail">Introdueix el teu correu...</string>
+    <string name="pass">Introdueix una contrasenya...</string>
+    <string name="repeat">No ho he entès, la podries repetir?...</string>
+    <string name="name">Introdueix el teu nom</string>
+    <string name="nickname">Introdueix el teu nom amb el que et veuràn els altres usuaris</string>
+    <string name="registra">Finalitza</string>
+    <string name="continua">següent</string>
+    <string name="login">Iniciar sessió</string>
+    <string name="register">Nou usuari</string>
+</resources>

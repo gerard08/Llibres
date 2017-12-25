@@ -14,7 +14,7 @@ public class register extends AppCompatActivity {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        setContentView(R.layout.login);
+        setContentView(R.layout.register);
     }
     public void continua(View view){
         setContentView(R.layout.profile_registering);

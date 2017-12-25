@@ -1,5 +1,6 @@
 package com.que.llibres;
 
+import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.media.Image;
 import android.os.Bundle;
@@ -65,4 +66,9 @@ double alpha2;
             }
         }.start();
     }
+
+    public void registra(View view){
+        startActivity(new Intent(this, register.class));
+    }
+
 }
