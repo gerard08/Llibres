@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.que.llibres">
-
+<!--S'ha de canviar l'icona de l'aplicació-->
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/feo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/feo"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".login">
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">>
+        <activity android:name=".register"/>
+        <activity android:name=".opening">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

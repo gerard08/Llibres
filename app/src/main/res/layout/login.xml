@@ -4,38 +4,53 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.que.llibres.login">
+    tools:context="com.que.llibres.register">
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_marginBottom="296dp"
-        android:alpha="0.2"
-        android:background="white"
+        android:alpha="0.3"
+        android:background="@android:color/white"
         android:fontFamily="sans-serif-smallcaps"
-        android:text="@string/pass"
+        android:hint="@string/pass"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintRight_toLeftOf="parent" />
+        app:layout_constraintRight_toLeftOf="parent"
+        android:gravity="center"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_marginBottom="220dp"
-        android:alpha="0.2"
-        android:background="white"
+        android:alpha="0.3"
+        android:background="@android:color/white"
         android:fontFamily="sans-serif-smallcaps"
-        android:text="@string/repeat"
+        android:hint="@string/repeat"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintRight_toLeftOf="parent"/>
+        app:layout_constraintRight_toLeftOf="parent"
+        android:gravity="center"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_marginBottom="372dp"
-        android:alpha="0.2"
-        android:background="white"
+        android:alpha="0.3"
+        android:background="@android:color/white"
         android:fontFamily="sans-serif-smallcaps"
-        android:text="@string/mail"
+        android:hint="@string/mail"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintRight_toLeftOf="parent" />
+        app:layout_constraintRight_toLeftOf="parent"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:layout_marginLeft="148dp"
+        android:background="#E0F2F1"
+        android:text="@string/continua"
+        android:textColor="#80CBC4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:onClick="continua"/>
 </android.support.constraint.ConstraintLayout>

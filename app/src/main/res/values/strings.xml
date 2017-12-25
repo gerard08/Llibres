@@ -3,4 +3,11 @@
     <string name="mail">Enter your mail...</string>
     <string name="pass">Enter a password...</string>
     <string name="repeat">I didn't got it, could you repeat it?...</string>
+    <string name="name">Enter your name</string>
+    <string name="nickname">Introduce the name that will be shown to the other users</string>
+    <string name="registra">End</string>
+    <string name="continua">continue</string>
+    <string name="title_activity_opening">opening</string>
+    <string name="login">Login</string>
+    <string name="register">New user</string>
 </resources>
