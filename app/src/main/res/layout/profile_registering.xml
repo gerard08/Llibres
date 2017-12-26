@@ -17,6 +17,7 @@
         app:layout_constraintRight_toRightOf="parent" />
 
     <EditText
+        android:id="@+id/name"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_marginBottom="248dp"
@@ -30,6 +31,7 @@
         app:layout_constraintRight_toLeftOf="parent"/>
 
     <EditText
+        android:id="@+id/nick"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_marginBottom="192dp"
@@ -50,5 +52,6 @@
         android:text="@string/registra"
         android:textColor="#80CBC4"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent" />
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:onClick="acabat"/>
 </android.support.constraint.ConstraintLayout>

@@ -2,11 +2,13 @@
     <string name="app_name">llibres</string>
     <string name="mail">Introduce tu correo...</string>
     <string name="pass">Introduce una contraseña...</string>
-    <string name="repeat">No me ha quedado claro, la podrias repetir?...</string>
+    <string name="repeat">Introduce otra vez la contraseña...</string>
     <string name="name">Introduce tu nombre</string>
     <string name="nickname">Introduce el nombre con el que te verá el resto de usuarios</string>
     <string name="registra">Finaliza</string>
     <string name="continua">siguiente</string>
     <string name="login">Iniciar sesión</string>
     <string name="register">Nuevo usuario</string>
+    <string name="error">Las contraseñas no coinciden</string>
+    <string name="internet">Error al subir la imagen</string>
 </resources>
