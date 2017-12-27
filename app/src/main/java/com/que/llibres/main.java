@@ -4,11 +4,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Window;
 import android.view.WindowManager;
-import android.widget.EditText;
 
-/**
- * Created by Gerard on 27/12/2017.
- */
 
 public class main extends AppCompatActivity {
     @Override

@@ -1,8 +1,6 @@
 package com.que.llibres;
 
 import android.content.Intent;
-import android.graphics.drawable.Drawable;
-import android.media.Image;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.support.v7.app.AppCompatActivity;
@@ -12,9 +10,6 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageView;
 
-/**
- * Created by Gerard on 25/12/2017.
- */
 public class opening extends AppCompatActivity {
 double alpha=1.0;
 double alpha2;
@@ -34,14 +29,14 @@ double alpha2;
                 alpha=alpha-0.01;
                 double d = alpha;
                 float f = (float)d;
-                ImageView background = (ImageView)findViewById(R.id.back);
+                ImageView background = findViewById(R.id.back);
                 background.setAlpha(f);
             }
 
             public void onFinish() {
                 setContentView(R.layout.choose);
-                Button button = (Button)findViewById(R.id.login);
-                Button button2 = (Button)findViewById(R.id.register);
+                Button button =  findViewById(R.id.login);
+                Button button2 = findViewById(R.id.register);
                 button.setAlpha(0);
                 button2.setAlpha(0);
                 anima2();
@@ -55,8 +50,8 @@ double alpha2;
                 alpha2=alpha2+0.04;
                 double d = alpha2;
                 float f = (float)d;
-                Button button = (Button)findViewById(R.id.login);
-                Button button2 = (Button)findViewById(R.id.register);
+                Button button =  findViewById(R.id.login);
+                Button button2 = findViewById(R.id.register);
                 button.setAlpha(f);
                 button2.setAlpha(f);
             }

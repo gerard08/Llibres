@@ -8,15 +8,12 @@ import android.provider.MediaStore;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
-
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.firestore.DocumentReference;
@@ -26,10 +23,6 @@ import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
 import com.theartofdev.edmodo.cropper.CropImage;
-import com.theartofdev.edmodo.cropper.CropImageView;
-
-import java.io.File;
-import java.net.URL;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -41,7 +34,6 @@ public class register extends AppCompatActivity {
     Uri imageUri;
     Uri resultUri;
     ImageView foto_gallery;
-    private ImageView resultView;
     private StorageReference mStorageRef;
     String nick;
     String name;
@@ -54,24 +46,23 @@ String perfil;
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.register);
-        EditText mail = (EditText) findViewById(R.id.mail);
-        EditText pass1 = (EditText) findViewById(R.id.pass1);
-        EditText pass2 = (EditText) findViewById(R.id.pass2);
+        EditText pass1 = findViewById(R.id.pass1);
+        EditText pass2 = findViewById(R.id.pass2);
         passw1 = pass1.getText().toString();
         passw2 = pass2.getText().toString();
 
     }
 
     public void next(View view) {
-        EditText mail = (EditText) findViewById(R.id.mail);
-        EditText pass1 = (EditText) findViewById(R.id.pass1);
-        EditText pass2 = (EditText) findViewById(R.id.pass2);
+        EditText mail =  findViewById(R.id.mail);
+        EditText pass1 = findViewById(R.id.pass1);
+        EditText pass2 = findViewById(R.id.pass2);
         passw1 = pass1.getText().toString();
         passw2 = pass2.getText().toString();
         email = mail.getText().toString();
         if (passw1.equals(passw2)) {
             setContentView(R.layout.profile_registering);
-            foto_gallery = (ImageView) findViewById(R.id.profile);
+            foto_gallery = findViewById(R.id.profile);
 
             foto_gallery.setOnClickListener(new View.OnClickListener() {
                 @Override
