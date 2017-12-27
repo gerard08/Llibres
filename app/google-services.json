@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "35339463033",
+    "firebase_url": "https://llibres-beb49.firebaseio.com",
+    "project_id": "llibres-beb49",
+    "storage_bucket": "llibres-beb49.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35339463033:android:f220d313c63cdb56",
+        "android_client_info": {
+          "package_name": "com.que.llibres"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35339463033-srprofdhaeuhfrpfcg8l7aishhbspedl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.que.llibres",
+            "certificate_hash": "6d36a4daa169630d1fbebbb997e854892ffb24af"
+          }
+        },
+        {
+          "client_id": "35339463033-bbbj1r0jcm7365e1p8fjec0uoo98mn5o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARnKgcDsbcTixveXChSo7WWceJEK-RPjg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "35339463033-bbbj1r0jcm7365e1p8fjec0uoo98mn5o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
