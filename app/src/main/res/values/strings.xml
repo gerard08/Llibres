@@ -12,5 +12,5 @@
     <string name="register">New user</string>
     <string name="error">Passwords do not match</string>
     <string name="internet">Error uploading the image</string>
-        <string name="instructions">Place your fingertip on the Home button to verify your identity</string>
+    <string name="passw">Enter your password</string>
 </resources>

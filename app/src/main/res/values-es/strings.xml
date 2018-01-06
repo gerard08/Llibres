@@ -11,4 +11,5 @@
     <string name="register">Nuevo usuario</string>
     <string name="error">Las contraseñas no coinciden</string>
     <string name="internet">Error al subir la imagen</string>
+    <string name="passw">Introduce tu contraseña...</string>
 </resources>

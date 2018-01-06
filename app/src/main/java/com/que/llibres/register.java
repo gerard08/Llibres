@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.Uri;
+import android.os.CountDownTimer;
 import android.provider.MediaStore;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
@@ -13,9 +14,16 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
+import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.auth.UserProfileChangeRequest;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.SetOptions;
@@ -38,7 +46,9 @@ public class register extends AppCompatActivity {
     String nick;
     String name;
     String id;
-String perfil;
+    private FirebaseAuth mAuth;
+    String perfil;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -50,31 +60,35 @@ String perfil;
         EditText pass2 = findViewById(R.id.pass2);
         passw1 = pass1.getText().toString();
         passw2 = pass2.getText().toString();
-
+        mAuth = FirebaseAuth.getInstance();
     }
 
     public void next(View view) {
-        EditText mail =  findViewById(R.id.mail);
+        EditText mail = findViewById(R.id.mail);
         EditText pass1 = findViewById(R.id.pass1);
         EditText pass2 = findViewById(R.id.pass2);
         passw1 = pass1.getText().toString();
         passw2 = pass2.getText().toString();
         email = mail.getText().toString();
-        if (passw1.equals(passw2)) {
-            setContentView(R.layout.profile_registering);
-            foto_gallery = findViewById(R.id.profile);
-
-            foto_gallery.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    openGallery();
-                }
-            });
-            add("correu", "contrasenya", email, passw1);
-        } else {
-            Toast.makeText(this, R.string.error, Toast.LENGTH_SHORT).show();
+        if(email.isEmpty()) {
+            Toast.makeText(this, R.string.mail, Toast.LENGTH_SHORT).show();
         }
+        else{
+            if (passw1.equals(passw2) && passw1.length()!=0) {
+                setContentView(R.layout.profile_registering);
+                foto_gallery = findViewById(R.id.profile);
 
+                foto_gallery.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        openGallery();
+                    }
+                });
+                add("correu", "contrasenya", email, passw1);
+            } else {
+                Toast.makeText(this, R.string.error, Toast.LENGTH_SHORT).show();
+            }
+        }
     }
 
     private void add(String what1, String what2, String solution1, String solution2) {
@@ -138,8 +152,19 @@ String perfil;
                     @Override
                     public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
                         Uri downloadUrl = taskSnapshot.getDownloadUrl();
-                        perfil=downloadUrl.toString();
+                        perfil = downloadUrl.toString();
                         Toast.makeText(register.this, perfil, Toast.LENGTH_SHORT).show();
+                        EditText nom = findViewById(R.id.name);
+                        EditText sobrenom = findViewById(R.id.nick);
+                        name = nom.getText().toString();
+                        nick = sobrenom.getText().toString();
+                        afegeix("nom", "usuari", "perfil", name, nick, perfil);
+                        SharedPreferences prefs = getSharedPreferences("usuari", Context.MODE_PRIVATE);
+                        SharedPreferences.Editor editor = prefs.edit();
+                        editor.putString("id", id);
+                        editor.commit();
+                        registra(name,passw1);
+
                     }
                 })
                 .addOnFailureListener(new OnFailureListener() {
@@ -156,17 +181,10 @@ String perfil;
         name = nom.getText().toString();
         nick = sobrenom.getText().toString();
         post(resultUri);
-        afegeix("nom", "usuari","perfil", name, nick,perfil);
-        SharedPreferences prefs = getSharedPreferences("usuari", Context.MODE_PRIVATE);
-        SharedPreferences.Editor editor = prefs.edit();
-        editor.putString("id", id);
-        editor.commit();
-        startActivity(new Intent(this, main.class));
     }
 
+
     private void afegeix(String what1, String what2,String what3, String solution1, String solution2,String solution3) {
-        // [START add_ada_lovelace]
-        // Create a new user with a first and last name
         Map<String, Object> usuari = new HashMap<>();
         usuari.put(what1, solution1);
         usuari.put(what2, solution2);
@@ -179,4 +197,49 @@ String perfil;
         // Add a new document with a generated ID
 
     }
+
+    private void registra(String mail, String pass){
+        mAuth.createUserWithEmailAndPassword(mail, pass)
+                .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
+                    @Override
+                    public void onComplete(@NonNull Task<AuthResult> task) {
+                        if (task.isSuccessful()) {
+                            // Sign in success, update UI with the signed-in user's information
+                            Toast.makeText(register.this, "Usuari creat", Toast.LENGTH_SHORT).show();
+                            FirebaseUser user = mAuth.getCurrentUser();
+                            updateUI(user);
+                            verificate();
+                        } else {
+                            // If sign in fails, display a message to the user.
+                            Toast.makeText(register.this, "Error", Toast.LENGTH_SHORT).show();
+                        }
+
+                        // ...
+                    }
+                });
+
+    }
+    private void updateUI(FirebaseUser user) {
+        if (user != null) {
+            startActivity(new Intent(this, main.class));
+            finish();
+        } else {
+            Toast.makeText(this, "Error", Toast.LENGTH_SHORT).show();
+        }
+    }
+    private void verificate(){
+        FirebaseAuth auth = FirebaseAuth.getInstance();
+        FirebaseUser user = auth.getCurrentUser();
+        user.sendEmailVerification()
+                .addOnCompleteListener(new OnCompleteListener<Void>() {
+                    @Override
+                    public void onComplete(@NonNull Task<Void> task) {
+                        if (task.isSuccessful()) {
+                            Toast.makeText(register.this, "enviat", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+
+    }
+
 }

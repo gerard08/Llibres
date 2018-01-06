@@ -11,4 +11,5 @@
     <string name="register">Nou usuari</string>
     <string name="error">Les contrasenyes no coincideixen</string>
     <string name="internet">Error al penjar la imatge</string>
+    <string name="passw">Introdueix la contrasenya...</string>
 </resources>

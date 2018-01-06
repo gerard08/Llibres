@@ -9,13 +9,20 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.Toast;
+
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.storage.StorageReference;
 
 public class opening extends AppCompatActivity {
 double alpha=1.0;
 double alpha2;
+    private FirebaseAuth mAuth;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
@@ -35,6 +42,9 @@ double alpha2;
 
             public void onFinish() {
                 setContentView(R.layout.choose);
+                mAuth = FirebaseAuth.getInstance();
+                FirebaseUser currentUser = mAuth.getCurrentUser();
+                updateUI(currentUser);
                 Button button =  findViewById(R.id.login);
                 Button button2 = findViewById(R.id.register);
                 button.setAlpha(0);
@@ -65,5 +75,14 @@ double alpha2;
     public void registra(View view){
         startActivity(new Intent(this, register.class));
     }
-
+    public void login(View view){startActivity(new Intent(this, login.class));}
+    private void updateUI(FirebaseUser user) {
+        if (user != null) {
+            Toast.makeText(this, user.getEmail(), Toast.LENGTH_SHORT).show();
+            startActivity(new Intent(this, main.class));
+            finish();
+        } else {
+          //  Toast.makeText(this, "Error", Toast.LENGTH_SHORT).show();
+        }
+    }
 }
