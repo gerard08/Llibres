@@ -11,10 +11,10 @@
             android:id="@+id/mail"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:layout_above="@+id/pass2"
+            android:layout_above="@+id/pass"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_marginBottom="57dp"
+            android:layout_marginBottom="92dp"
             android:alpha="0.3"
             android:background="@android:color/white"
             android:gravity="center"
@@ -48,7 +48,7 @@
             android:background="@drawable/rodonet"
             android:onClick="next"
             android:text="@string/login"
-            android:textColor="#BBB"
+            android:textColor="#E0F7FA"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent" />
     </RelativeLayout>

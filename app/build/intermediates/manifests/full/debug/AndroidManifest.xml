@@ -44,11 +44,6 @@
             android:theme="@style/Base.Theme.AppCompat" />
         <activity android:name="com.que.llibres.main" />
         <activity android:name="com.que.llibres.login" />
-
-        <meta-data
-            android:name="android.support.VERSION"
-            android:value="26.1.0" />
-
         <activity
             android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
             android:excludeFromRecents="true"
