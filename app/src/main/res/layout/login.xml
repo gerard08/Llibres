@@ -48,7 +48,7 @@
             android:background="@drawable/rodonet"
             android:onClick="next"
             android:text="@string/login"
-            android:textColor="#80CBC4"
+            android:textColor="#BBB"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent" />
     </RelativeLayout>
