@@ -1,4 +1,4 @@
-#Fri Feb 23 17:41:46 CET 2018
-base.0=C\:\\Users\\Gerard\\AndroidStudioProjects\\llibre\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\120
+#Tue Feb 27 22:58:46 CET 2018
+base.0=C\:\\Users\\Gerard\\AndroidStudioProjects\\llibre\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\7
 path.0=classes.dex
 renamed.0=classes.dex

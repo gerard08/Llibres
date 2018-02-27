@@ -17,4 +17,15 @@
 
     </android.support.design.widget.NavigationView>
 
+    <android.support.design.widget.NavigationView
+        android:layout_width="358dp"
+        android:layout_height="match_parent"
+        app:headerLayout="@layout/register"
+        android:layout_gravity="right">
+
+
+    </android.support.design.widget.NavigationView>
+
+
+
 </android.support.v4.widget.DrawerLayout>

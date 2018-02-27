@@ -1,0 +1,91 @@
+-injars 'C:\Users\Gerard\.gradle\caches\transforms-1\files-1.1\firebase-core-11.8.0.aar\15aa73d45a4a3308ebe08804cdd4d92d\jars\classes.jar'(**.class)
+-injars 'C:\Users\Gerard\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\e7fcb6d3d079378e7cb0927ea1d33d99\jars\classes.jar'(**.class)
+-injars 'C:\Users\Gerard\.gradle\caches\transforms-1\files-1.1\android-image-cropper-2.6.0.aar\ddb2493e0fdf2ba81ea8295f9375813b\jars\classes.jar'(**.class)
+-injars 'C:\Users\Gerard\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\4da9a15eae84b645c0ce46869855ce93\jars\classes.jar'(**.class)
+-injars 'C:\Users\Gerard\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\f87741d25aa2355b9987bd44e0fab8c3\jars\classes.jar'(**.class)
+-injars 'C:\Users\Gerard\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\6fdf17992a7f2bcf7997303bcfcc1d23\jars\classes.jar'(**.class)
+-injars 'C:\Users\Gerard\.gradle\caches\transforms-1\files-1.1\firebase-storage-11.8.0.aar\8d04c6cfcdcb3d98f4016c3ae989c94f\jars\classes.jar'(**.class)
+-injars 'C:\Users\Gerard\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.8.0.aar\5a79d123e18ced93b70bc6a807876bb8\jars\classes.jar'(**.class)
+-injars 'C:\Users\Gerard\.gradle\caches\modules-2\files-2.1\commons-net\commons-net\3.6\b71de00508dcb078d2b24b5fa7e538636de9b3da\commons-net-3.6.jar'(**.class)
+-injars 'C:\Users\Gerard\.gradle\caches\transforms-1\files-1.1\firebase-firestore-11.8.0.aar\95762692c7e710944afa264a5f98f5fa\jars\classes.jar'(**.class)
+-injars 'C:\Users\Gerard\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\34eb528190cddc9a4072a7cdcd830ab1\jars\classes.jar'(**.class)
+-injars 'C:\Users\Gerard\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-11.8.0.aar\31a072bc64a29aa135e8127666135751\jars\classes.jar'(**.class)
+-injars 'C:\Users\Gerard\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.8.0.aar\9edad94aa4722f04819e5285b7a72b19\jars\classes.jar'(**.class)
+-injars 'C:\Users\Gerard\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\a0f916bfa62430869f1e66512a6bb912\jars\classes.jar'(**.class)
+-injars 'C:\Users\Gerard\.gradle\caches\transforms-1\files-1.1\firebase-common-11.8.0.aar\ada8e19230422fb6f6e5ae00538150ba\jars\classes.jar'(**.class)
+-injars 'C:\Users\Gerard\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\3e57e35c9fd557d3eb17c6500f3ca263\jars\classes.jar'(**.class)
+-injars 'C:\Users\Gerard\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\703649b352aa58895caa4f764be1052c\jars\classes.jar'(**.class)
+-injars 'C:\Users\Gerard\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\bfd2f51dd0bcf003d7571e09280432b1\jars\classes.jar'(**.class)
+-injars 'C:\Users\Gerard\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.0.aar\ebee2696500ac91dfb6d47ed2b02d472\jars\classes.jar'(**.class)
+-injars 'C:\Users\Gerard\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.0.aar\7862469371266c7525036c3664b52050\jars\classes.jar'(**.class)
+-injars 'C:\Users\Gerard\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\e0fcab29eef03c4a2f0a1d38fdbc9988\jars\classes.jar'(**.class)
+-injars 'C:\Users\Gerard\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\ac0351439d2de893ffc9a54a5c216eea\jars\classes.jar'(**.class)
+-injars 'C:\Users\Gerard\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.0.aar\cef82bcf15faabdbfe95e47574ce3b02\jars\classes.jar'(**.class)
+-injars 'C:\Users\Gerard\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.0.aar\96fc96b62b003734152582a8f02f29fd\jars\classes.jar'(**.class)
+-injars 'C:\Users\Gerard\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\57658ef6a8b07ad0d601ec43b687ceaf\jars\classes.jar'(**.class)
+-injars 'C:\Users\Gerard\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.0.aar\c553ead71fbd92a6f9df8d2824740c2c\jars\classes.jar'(**.class)
+-injars 'C:\Users\Gerard\.gradle\caches\transforms-1\files-1.1\transition-27.1.0.aar\d97bcb8057f1fe2fa70242fba422dd8b\jars\classes.jar'(**.class)
+-injars 'C:\Users\Gerard\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\b76cde45dc8437a3343a4f298be74303\jars\classes.jar'(**.class)
+-injars 'C:\Users\Gerard\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.0.aar\cb55b4ca7b22690d16eae7b509c7baa3\jars\classes.jar'(**.class)
+-injars 'C:\Users\Gerard\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\27.1.0\39ded76b5e1ce1c5b2688e1d25cdc20ecee32007\support-annotations-27.1.0.jar'(**.class)
+-injars 'C:\Users\Gerard\AppData\Local\Android\Sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar'(**.class)
+-injars 'C:\Users\Gerard\.gradle\caches\transforms-1\files-1.1\firebase-storage-license-11.8.0.aar\3896a1871d8f21e45324dc711b8f1b1f\jars\classes.jar'(**.class)
+-injars 'C:\Users\Gerard\.gradle\caches\transforms-1\files-1.1\firebase-auth-license-11.8.0.aar\340f6e29bb21331b204f9579d974dd72\jars\classes.jar'(**.class)
+-injars 'C:\Users\Gerard\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.7.2\20f6463eb19ac61960c5d91a094c2f4f0727dc2e\okhttp-2.7.2.jar'(**.class)
+-injars 'C:\Users\Gerard\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.8.0.aar\7d5b0cae83636aba166b41d1862449cb\jars\classes.jar'(**.class)
+-injars 'C:\Users\Gerard\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\f5be6bbfd2e6c0b9e6b1c322b77077f1\jars\classes.jar'(**.class)
+-injars 'C:\Users\Gerard\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\5e8b87f6af2054d4322173e62dc55e83\jars\classes.jar'(**.class)
+-injars 'C:\Users\Gerard\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-license-11.8.0.aar\b39b24cdcee974ce74775e75d8eed0d9\jars\classes.jar'(**.class)
+-injars 'C:\Users\Gerard\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\d7e05dd59b5a938dad414e10ffabc234\jars\classes.jar'(**.class)
+-injars 'C:\Users\Gerard\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.8.0.aar\a28251f7814de3a38c0631688e5d92e5\jars\classes.jar'(**.class)
+-injars 'C:\Users\Gerard\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\dc7a14fad9c16e6d48ccbda4eb87d44d\jars\classes.jar'(**.class)
+-injars 'C:\Users\Gerard\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\b718c3d96f77b5f1bf58d56b5f2d7a96\jars\classes.jar'(**.class)
+-injars 'C:\Users\Gerard\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar'(**.class)
+-injars 'C:\Users\Gerard\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.8.0.aar\7b74cb522c5fc80e5e08a46d4b78ea71\jars\classes.jar'(**.class)
+-injars 'C:\Users\Gerard\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\1f4c8ce9aec1284bf17938c8b7a28132\jars\classes.jar'(**.class)
+-injars 'C:\Users\Gerard\.gradle\caches\modules-2\files-2.1\android.arch.lifecycle\common\1.1.0\edf3f7bfb84a7521d0599efa3b0113a0ee90f85\common-1.1.0.jar'(**.class)
+-injars 'C:\Users\Gerard\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\13b133a2c0d20c5c7759595159b60345\jars\classes.jar'(**.class)
+-injars 'C:\Users\Gerard\.gradle\caches\modules-2\files-2.1\android.arch.core\common\1.1.0\8007981f7d7540d89cd18471b8e5dcd2b4f99167\common-1.1.0.jar'(**.class)
+-injars 'C:\Users\Gerard\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.8.0.aar\839a8b4a32cec1af60c28011d1cd8467\jars\classes.jar'(**.class)
+-injars 'C:\Users\Gerard\AndroidStudioProjects\llibre\app\build\intermediates\classes\debug'(**.class)
+-outjars 'C:\Users\Gerard\AndroidStudioProjects\llibre\app\build\intermediates\multi-dex\debug\componentClasses.jar'
+
+-libraryjars 'C:\Users\Gerard\AppData\Local\Android\Sdk\build-tools\26.0.2\lib\shrinkedAndroid.jar'
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **
+-dontwarn **
+-printconfiguration 'C:\Users\Gerard\AndroidStudioProjects\llibre\app\build\intermediates\multi-dex\debug\components.flags'
+
+
+# Referenced at C:\Users\Gerard\AndroidStudioProjects\llibre\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:25
+-keep class android.support.multidex.MultiDexApplication {
+    <init>(...);
+}
+
+-keep public class * extends android.app.Instrumentation {
+    <init>();
+}
+
+-keep public class * extends android.app.Application {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.ir.** {
+    <fields>;
+    <methods>;
+}

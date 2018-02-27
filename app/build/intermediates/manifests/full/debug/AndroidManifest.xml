@@ -5,11 +5,14 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="15"
-        android:targetSdkVersion="26" />
+        android:minSdkVersion="23"
+        android:targetSdkVersion="27" />
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
 
     <!-- Required permission for App measurement to run. -->
     <uses-permission android:name="android.permission.INTERNET" />
@@ -29,7 +32,6 @@
         android:label="@string/app_name"
         android:roundIcon="@drawable/feo"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
         <activity android:name="com.que.llibres.register" />
         <activity android:name="com.que.llibres.opening" >

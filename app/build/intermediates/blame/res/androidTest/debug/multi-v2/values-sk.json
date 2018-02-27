@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\Gerard\\AndroidStudioProjects\\llibre\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-sk\\values-sk.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Gerard\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\4f29ada5e7be81b020a2377ad490f56b\\res\\values-sk\\values-sk.xml",
+                    "source": "C:\\Users\\Gerard\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\f87741d25aa2355b9987bd44e0fab8c3\\res\\values-sk\\values-sk.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -18,6 +18,23 @@
                         "startOffsets": "105,212,312,423,509,617,735,816,897,981,1086,1195,1294,1400,1511,1620,1786,4640",
                         "endColumns": "106,99,110,85,107,117,80,80,83,104,108,98,105,110,108,165,97,87",
                         "endOffsets": "207,307,418,504,612,730,811,892,976,1081,1190,1289,1395,1506,1615,1781,1879,4723"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Gerard\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\cb55b4ca7b22690d16eae7b509c7baa3\\res\\values-sk\\values-sk.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "38",
+                        "startColumns": "4",
+                        "startOffsets": "4728",
+                        "endColumns": "100",
+                        "endOffsets": "4824"
                     }
                 },
                 {
@@ -35,23 +52,6 @@
                         "startOffsets": "3041",
                         "endColumns": "197",
                         "endOffsets": "3234"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Gerard\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\a434df54a59cd588fa2d718f45d7b6cb\\res\\values-sk\\values-sk.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "38",
-                        "startColumns": "4",
-                        "startOffsets": "4728",
-                        "endColumns": "100",
-                        "endOffsets": "4824"
                     }
                 },
                 {

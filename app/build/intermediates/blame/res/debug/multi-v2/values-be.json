@@ -4,23 +4,6 @@
             "outputFile": "C:\\Users\\Gerard\\AndroidStudioProjects\\llibre\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-be\\values-be.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Gerard\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\a434df54a59cd588fa2d718f45d7b6cb\\res\\values-be\\values-be.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "108",
-                        "endOffsets": "159"
-                    },
-                    "to": {
-                        "startLines": "38",
-                        "startColumns": "4",
-                        "startOffsets": "4695",
-                        "endColumns": "108",
-                        "endOffsets": "4799"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Gerard\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-11.8.0.aar\\bfd2f51dd0bcf003d7571e09280432b1\\res\\values-be\\values.xml",
                     "from": {
                         "startLines": "4",
@@ -38,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Gerard\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\4f29ada5e7be81b020a2377ad490f56b\\res\\values-be\\values-be.xml",
+                    "source": "C:\\Users\\Gerard\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\f87741d25aa2355b9987bd44e0fab8c3\\res\\values-be\\values-be.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -52,6 +35,23 @@
                         "startOffsets": "105,225,328,444,530,638,756,835,913,996,1102,1208,1306,1414,1519,1624,1793,4614",
                         "endColumns": "119,102,115,85,107,117,78,77,82,105,105,97,107,104,104,168,99,80",
                         "endOffsets": "220,323,439,525,633,751,830,908,991,1097,1203,1301,1409,1514,1619,1788,1888,4690"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Gerard\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\cb55b4ca7b22690d16eae7b509c7baa3\\res\\values-be\\values-be.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "108",
+                        "endOffsets": "159"
+                    },
+                    "to": {
+                        "startLines": "38",
+                        "startColumns": "4",
+                        "startOffsets": "4695",
+                        "endColumns": "108",
+                        "endOffsets": "4799"
                     }
                 },
                 {

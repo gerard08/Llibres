@@ -2,13 +2,13 @@
 <instant-run
     abi="armeabi-v7a,armeabi"
     api-level="24"
-    build-mode="COLD"
+    build-mode="HOT_WARM"
     density="xxhdpi"
     format="10"
     plugin-version="3.0.1"
-    timestamp="1519559248362"
+    timestamp="1519769493224"
     token="5726502496352127175"
-    verifier="MANIFEST_FILE_CHANGE" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
@@ -24,12 +24,12 @@
         duration="0" />
 
     <artifact
-        location="C:\Users\Gerard\AndroidStudioProjects\llibre\app\build\outputs\apk\debug\app-debug.apk"
-        type="SPLIT_MAIN" />
+        location="C:\Users\Gerard\AndroidStudioProjects\llibre\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+        type="RESOURCES" />
 
     <build
         build-mode="FULL"
-        timestamp="1519557968055"
+        timestamp="1519768671740"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\Gerard\AndroidStudioProjects\llibre\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
@@ -38,52 +38,22 @@
             location="C:\Users\Gerard\AndroidStudioProjects\llibre\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
+            location="C:\Users\Gerard\AndroidStudioProjects\llibre\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
             location="C:\Users\Gerard\AndroidStudioProjects\llibre\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Gerard\AndroidStudioProjects\llibre\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Gerard\AndroidStudioProjects\llibre\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Gerard\AndroidStudioProjects\llibre\app\build\outputs\apk\debug\app-debug.apk"
-            type="SPLIT_MAIN" />
-        <artifact
-            location="C:\Users\Gerard\AndroidStudioProjects\llibre\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Gerard\AndroidStudioProjects\llibre\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Gerard\AndroidStudioProjects\llibre\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Gerard\AndroidStudioProjects\llibre\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            location="C:\Users\Gerard\AndroidStudioProjects\llibre\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Gerard\AndroidStudioProjects\llibre\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Gerard\AndroidStudioProjects\llibre\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="R_CLASS_CHANGE"
-        timestamp="1519559127882"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\Gerard\AndroidStudioProjects\llibre\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Gerard\AndroidStudioProjects\llibre\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Gerard\AndroidStudioProjects\llibre\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Gerard\AndroidStudioProjects\llibre\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            location="C:\Users\Gerard\AndroidStudioProjects\llibre\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Gerard\AndroidStudioProjects\llibre\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
@@ -94,14 +64,25 @@
         <artifact
             location="C:\Users\Gerard\AndroidStudioProjects\llibre\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1519559248362"
-        verifier="MANIFEST_FILE_CHANGE" >
         <artifact
             location="C:\Users\Gerard\AndroidStudioProjects\llibre\app\build\outputs\apk\debug\app-debug.apk"
             type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1519769456608"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\Gerard\AndroidStudioProjects\llibre\app\build\outputs\apk\debug\app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1519769493224"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\Gerard\AndroidStudioProjects\llibre\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+            type="RESOURCES" />
     </build>
 
 </instant-run>

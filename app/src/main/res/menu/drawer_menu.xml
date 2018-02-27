@@ -2,6 +2,6 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 <item android:id="@+id/profile" android:title="profile"/>
     <item android:id="@+id/inici" android:title="inici"/>
-    <item android:id="@+id/logout" android:title="logout" android:icon=""/>
+    <item android:id="@+id/logout" android:title="logout" />
     <item android:id="@+id/faq" android:title="faq"/>
 </menu>
